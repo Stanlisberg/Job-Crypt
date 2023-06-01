@@ -1,0 +1,289 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  /* color: #1a1a1a; */
+  color: #353535;
+  background: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.image {
+  transition: width 0.3s, height 0.3s;
+}
+
+.image:hover {
+  width: 64px;
+  height: 64px;
+}
+.wrapper {
+  width: 100%;
+  margin: 53px 80px;
+  min-height: 150vh;
+}
+
+.first-row {
+  margin: 0 auto;
+  width: 650px;
+}
+
+.how-to {
+  font-size: 19px;
+  margin-left: 15px;
+}
+
+.button-click {
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background: #353535;
+  margin-left: 5px;
+  font-weight: bold;
+  align-items: center;
+  font-size: 18px;
+}
+
+.button-post {
+  color: #fff;
+  background: #353535;
+  border-radius: 19px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 13px;
+}
+
+.need-crypto {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.text {
+  text-transform: uppercase;
+  color: #ff0000;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 25px;
+}
+
+.job-logo {
+  position: relative;
+}
+.job-text {
+  position: absolute;
+  top: 40px;
+  left: -15px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  color: #353535;
+}
+
+.job-text .crypt {
+  padding-left: 3px;
+}
+.button-icon-div {
+  margin-left: 20px;
+}
+.twitter,
+.discord,
+.tiktok,
+.youtube {
+  margin: 12px 0;
+}
+
+.third-row {
+  display: flex;
+  padding-left: 12px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.third-row-second {
+  margin-left: 1px;
+  padding: 0px 6px;
+}
+
+.fourth-row {
+  margin-top: 100px;
+  padding-left: 12px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.fifth-row {
+  margin-top: 150px;
+  padding-left: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  line-height: 29px;
+}
+
+.fifth-row-first {
+  margin-top: 15px;
+}
+.fifth-row-join {
+  padding-left: 20px;
+  display: flex;
+  margin-top: 15px;
+}
+
+.fifth-row-hack {
+  margin-top: 12px;
+  padding-right: 5px;
+}
+
+.fifth-row-file {
+  padding-left: 20px;
+}
+
+.sixth-row {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 155px;
+  width: 50%;
+}
+
+.sixth-row-first {
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 32px;
+}
+
+.sixth-row-second {
+  font-size: 23px;
+  margin-right: 32px;
+}
+
+.sixth-row-third {
+  font-size: 9px;
+  font-weight: 300;
+  text-align: end;
+  margin-top: 30px;
+  color: #1a1a1a;
+}
+.indicate-div {
+  display: flex;
+  justify-content: end;
+}
+
+.indicate-para {
+  margin-top: 27px;
+  margin-right: 3px;
+  color: #e85c41;
+  font-weight: 400px;
+  font-size: 14px;
+}
+.email-div {
+  display: flex;
+  font-weight: 600px;
+  font-size: 17px;
+}
+
+.email-para {
+  margin-left: 3px;
+  margin-top: -3px;
+  color: #e85c41;
+}
+.sixth-row-fourth {
+  text-align: start;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+.sixth-row-input {
+  width: 100%;
+  padding: 11px 9px;
+  background: #ebebeb;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.border-red {
+  border: 2px solid #e85c41;
+}
+.sixth-row-input:focus {
+  border: 1px solid #353535;
+  outline: none;
+}
+.sixth-row-input::placeholder {
+  font-size: 17px;
+  opacity: 0.4;
+}
+
+.sixth-row-button {
+  border: 1px solid #353535;
+  color: #fff;
+  padding: 10px 130px;
+  background: #353535;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.seventh-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.seventh-row-first {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.span {
+  color: #aeaeae;
+}
+
+.ul-div {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 20px;
+}
+
+li {
+  padding: 0 4px;
+  font-size: 18px;
+  margin-right: 5px;
+}
